@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="div1">
+      <input id="ipt1" type="text" />
+    </div>
+
+    <a id="a1" target="_blank" href="https://www.qq.com">qq.com</a>
+
+    <ul>
+      <li>1</li>
+      <li>2</li>
+    </ul>
+  </body>
+  <script>
+    var ipt = document.getElementById("ipt1");
+
+    function clickInput(event) {
+      console.log("input", event, this);
+    }
+    function clickDiv1(event) {
+      console.log("div", event);
+    }
+
+    function clickLink(event) {
+      alert("1");
+    }
+    ipt.addEventListener("click", clickInput);
+    document.getElementById("div1").addEventListener("click", clickDiv1);
+
+    document.getElementById("a1").addEventListener("click", clickLink);
+  </script>
+</html>

@@ -1,0 +1,25 @@
+.content{
+    overflow: scroll;
+    height: 696px;
+}
+.Head{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.content_0{
+    font-size: 20px;
+    text-align: center;
+}
+.content_1{
+    display: block;
+}
+.content_1 div{
+    font-size: 20px;
+    text-align: center;
+}
+.content_1 img{
+    margin-left: 400px;
+    width: 300px;
+    border-radius: 10px;
+}

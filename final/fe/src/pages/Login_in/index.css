@@ -1,0 +1,125 @@
+.login-in {
+    height: 696px;
+    /* background: linear-gradient(180deg, #a0d7e7, #6c5dd3); */
+    background-color: #001529;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+.head{
+    position: fixed;
+    display: flex;
+    top: 104px;
+}
+.head h1{
+    width: 315px;
+    font-size: 29px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #8C8D9B;
+    text-align: center;
+    margin: 19.43px 0 14.5px 0;
+}
+.head div{
+    width: 100px;
+    height: 72px;
+    line-height: 72px;
+}
+.head img{
+    width: 70px;
+    height: 70px;
+}
+.login-in-form{
+    width: 520px;
+    height: 420px;
+    border: 1px solid #00dfc4;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top:166px;
+}
+.tab{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #8C8D9B;
+    background-color: #001529;
+}
+.input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: #001529;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+}
+.span-username{
+    position: absolute;
+    left: 50px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255,255,255,0.25);
+    text-transform: uppercase;
+    transition: .5s;
+}
+.input:valid ~ .span-username,
+.input:focus ~ .span-username{
+    color:#00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: #001529;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+}
+.input-password{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: #001529;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+}
+.span-password{
+    position: absolute;
+    left: 50px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255,255,255,0.25);
+    text-transform: uppercase;
+    transition: .5s;
+}
+.input-password:valid ~ span,
+.input-password:focus ~ span{
+    color:#00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: #001529;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+}
+.link{
+    color: #8C8D9B;
+    margin-left: 260px;
+    font-size: 20px;
+}
+.button{
+    font-size: 24px;
+    margin-top: 0px;
+    background-color: #001529;
+    border: 1px solid #8C8D9B;
+    border-radius: 8px;
+    color: #8C8D9B;
+}

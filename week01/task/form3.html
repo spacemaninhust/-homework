@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form demo</title>
+    <style>
+      .div1 {
+        color: blue !important;
+      }
+    </style>
+    <script>
+      function init() {}
+
+      function deleleDiv() {
+        var div = document.getElementById("main_div");
+        document.body.removeChild(div);
+      }
+      document.addEventListener("DOMContentLoaded", init);
+    </script>
+  </head>
+  <body>
+    <div>功能1：点击变红色，功能2：双击删除自己</div>
+    <div id="main_div" style="color: red; background-color: blue">文本</div>
+
+    <div class="div1" style="color: aqua">这是文本2</div>
+
+    <div>前端=：html+js+css</div>
+
+    <img src="http://xxx.png" />
+
+    <a target="_blank" href="http://www.baidu.com">这是一个链接</a>
+
+    <button onclick="deleleDiv()">Delete</button>
+    <br />
+    <br />
+    <form>
+      <input type="text" />
+
+      <input type="checkbox" id="cbx1" />
+      <label>是否</label>
+
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>

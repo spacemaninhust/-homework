@@ -1,0 +1,32 @@
+.user{
+    display: flex;
+    position: absolute;
+    right: 23px;
+}
+.userName{
+    margin-right: 10px;
+    color: #8C8D9B;
+    font-size: 20px;
+}
+.userAvatar img{
+    width: 36px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.buttonshow{
+    width: 88px;
+    position: absolute;
+    right: 6px;
+    top:45px;
+    height: 34px;
+    z-index: 999;
+}
+.buttonhide{
+    display: none;
+}
+.img{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 33px;
+}

@@ -1,0 +1,48 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+  
+.trigger:hover {
+    color: #1890ff;
+}
+  
+.logo {
+    height: 32px;
+    margin: 16px;
+    margin-bottom: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    color:#8C8D9B;
+}
+.logo-hide{
+    display: none;
+}
+.profile{
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.site-layout .site-layout-background {
+    background: #fff;
+}
+.site-layout .site-layout-background-1 {
+    background: #001529;
+    display: flex;
+    text-align: center;
+    opacity: .9;
+    height: 60px;
+}
+.ant-layout{
+    height: 696px;
+    background-color: white;
+}
+
+
+
+
